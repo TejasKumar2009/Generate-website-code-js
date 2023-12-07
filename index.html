@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Generate Code for any website - Clone any website in seconds !</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script src="script.js"></script>
+
+    <style>
+        .heading{
+            color: #228f04;
+        }
+
+    </style>
+
+  </head>
+  <body>
+
+    <div class="container">
+        
+        <div class="header text-center mt-3">
+            <h1 class="heading" >Generate Code of any website - Clone any website in seconds !</h1>
+        </div>
+
+        <div class="main">
+                <div class="mb-3 mt-5">
+                  <label for="exampleInputEmail1" class="form-label">Enter Website URL/Link</label>
+                  <input placeholder="For eg. https://www.google.com/"  type="text" class="form-control" id="linkInput">
+                  <div id="emailHelp" class="form-text mt-3 mb-2">Note : A link of the code of the website will be generated. You merely have to click the link, and copy/paste it and get started!
+                </div>
+                
+                <div class="d-flex justify-content-center mt-4 mb-5">
+                <button onclick="generate_code_link()" type="submit" class="btn btn-success">Generate Website Code!</button>
+                </div>
+
+                <div id="link_container" class="alert alert-success mt-5 d-none" role="alert">
+                  This is a success alert—check it out!
+                </div>
+        </div>
+        
+    </div>
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
